@@ -5,5 +5,6 @@ export const routes = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    children: [],
   },
 ]);
