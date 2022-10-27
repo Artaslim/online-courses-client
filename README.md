@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<!-- Project-Description -->
+
+. https://github.com/programming-hero-web-course1/b610-lerning-platform-server-side-Artaslim
+
+.https://github.com/programming-hero-web-course1/b610-learning-platform-client-side-Artaslim
+.
+
+<!-- Project-work -->
+
+1. create firebase app
+2. get firebase configuration inside firebase.config.js
+3. export app from firebase config
+4. create a react app
+5. install firebase and react router dom
+6. install bootstrap and react-bootstrap
+7. import bootstrap css in the index.js file
+8. Create Education website
