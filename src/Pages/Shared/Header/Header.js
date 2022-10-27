@@ -6,6 +6,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Item from "../Item/Item";
 import Image from "react-bootstrap/Image";
 import logo from "../../../assests/logo/logo.svg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -13,15 +14,16 @@ const Header = () => {
       collapseOnSelect
       className="mb-4"
       expand="lg"
-      sticky="top"
       bg="dark"
       variant="dark"
     >
       <Container>
-        <Navbar.Brand href="#home">
-          <div>
-            <Image style={{ height: "30px" }} src={logo}></Image>
-          </div>
+        <Navbar.Brand>
+          <Link to="/">
+            <div>
+              <Image style={{ height: "30px" }} src={logo}></Image>
+            </div>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

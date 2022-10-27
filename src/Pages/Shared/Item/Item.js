@@ -15,7 +15,7 @@ const Item = () => {
       <div>
         {courses.map((course) => (
           <p key={course.id}>
-            <Link to={`/courses/${course.id}`}>
+            <Link to={`/category/${course.id}`}>
               <Button variant="info">{course.name}</Button>
             </Link>
           </p>
